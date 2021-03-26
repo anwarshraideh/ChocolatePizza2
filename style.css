@@ -1,0 +1,259 @@
+
+*{
+
+    box-sizing:border-box;
+    color: gray;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+
+body
+{
+    width: 960px;
+    margin: auto;
+   
+}
+
+h1 {
+font-family: 'Yellowtail', cursive;    
+font-style: italic;
+font-size: 30px;
+text-align: left;
+margin-top: 14px;
+margin: 0 53px;
+color: black;
+
+}
+
+#headerP
+{
+    font-size: 9px;
+    color: rgb(124, 117, 117);
+    margin: 0px 52px;
+
+}
+
+.logo
+{
+    float:left;
+    margin-top: 10px;
+}
+
+#headerImg
+{
+    position: absolute;
+    left: 920px;
+    top: 23px;
+}
+
+.rss-icon
+{
+    padding-left: 11px; }
+
+main
+{
+
+    margin-top: 40px;
+}
+    
+#textdiv
+{
+    
+    position: absolute;
+    right: 840px;
+    top: 150px;
+   
+
+}
+
+#textdiv h1
+{
+    font-size: 35px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:700;
+    line-height: 1.7px;
+   
+}
+
+#textdiv p
+
+{
+    font-size: 12px;
+    color:  rgb(124, 117, 117);
+    font-family: 'Source Sans Pro', sans-serif;
+    word-spacing: 0px;
+    margin-left: 60px;
+    padding-top: 5px;
+   
+}
+#secondDiv
+{
+    float: right;
+    margin-top: 30px;
+}
+
+.printImg
+{
+    position: relative;
+    right: 15px;
+    top: 40px;
+}
+
+.choco-pizza
+{
+    
+    width: 100%;
+    margin-top: 20px ;
+}
+
+article{
+    line-height: 1.5;
+    text-indent: 30px;
+    font-weight: 400;
+    margin: 20px 0;
+    margin-bottom: 30px;
+}
+
+#addList
+{
+  
+    background-image: url('./assets/list-bg.png');
+    height: 300px;
+    margin-bottom: 60px;
+    padding-top: 34px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+#addList label {
+    display: inline-block;
+    font-family: 'Yellowtail', cursive;
+    font-weight: 450;
+    font-size: 18px;
+    color: rgb(82, 72, 72);
+    text-decoration: none;
+   }
+
+   #addList span {
+    display: inline-block;
+    padding: 6px;
+
+   }   
+   
+
+   .first
+   {
+    float: left;
+    margin-left: 18px;
+    margin-top: 20px;
+    width: 350px;
+   }
+
+   .second
+   {
+    float: right;
+    width: 290px;
+    margin-right: 155px;
+    margin-top: 18px;
+   }
+
+
+
+   input[type="checkbox"] 
+   {
+    display: none;
+   }
+
+   #addList input[type="checkbox"]:checked + label 
+{
+  text-decoration: line-through;
+}
+
+input[type="checkbox"] + label:before {
+    border: 1px solid rgb(173, 169, 169);
+    content: "\00a0";
+    display: inline-block;
+    height: 14px;
+    margin: 0.25em .75em 0 0;
+    padding: 0;
+    vertical-align: top;
+    width: 14px;
+    border-radius: 4px;
+    }
+
+    input[type="checkbox"]:checked + label:before {
+        background: #fff;
+        color: #333;
+        content: "\2713";
+        text-align: center;
+        
+        }
+
+        input[type="checkbox"]:checked + label:after {
+            font-weight: bold;
+            }
+
+.Van
+{
+    width: 900px;
+    height: 160px;
+}
+
+.Van div h2 {
+    position: relative;
+    left: 85px;
+    bottom: 90px;
+    color: black;
+}
+
+.Van div p 
+{
+    width: 58%;
+    position: relative;
+    left: 85px;
+    bottom: 95px;
+    font-size: medium;
+    text-align: justify;
+    color: rgb(73, 72, 72);
+    
+    
+}
+
+button
+{
+    font-size: 20px;
+    font-weight: 300;
+    position: relative;
+    left: 760px;
+    bottom: 170px;
+    width: 200px;
+    height: 50px;
+    background-color: #8f432c;
+    color: rgb(255, 255, 255);
+    border :none;
+    
+}
+
+footer
+{
+  margin-top: 30px;  
+  text-align: center;
+  
+}
+
+
+footer p
+{
+  color:grey;
+  font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
